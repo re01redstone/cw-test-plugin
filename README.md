@@ -11,22 +11,19 @@
 <h1>Class Widgets 插件模板</h1>
 
 
-[![星标](https://img.shields.io/github/stars/repo-owner/repo-name?style=for-the-badge&color=orange&label=星标)](https://github.com/repo-owner/repo-name)
-[![开源许可](https://img.shields.io/badge/license-MIT-darkgreen.svg?label=开源许可证&style=for-the-badge)](https://github.com/repo-owner/repo-name)
-[![下载量](https://img.shields.io/github/downloads/repo-owner/repo-name/total.svg?label=下载量&color=green&style=for-the-badge)](https://github.com/repo-owner/repo-name)
+[![星标](https://img.shields.io/github/stars/re01redstone/cw-test-plugin?style=for-the-badge&color=orange&label=星标)](https://github.com/re01redstone/cw-test-plugin)
+[![开源许可](https://img.shields.io/badge/license-MIT-darkgreen.svg?label=开源许可证&style=for-the-badge)](https://github.com/re01redstone/cw-test-plugin)
+[![下载量](https://img.shields.io/github/downloads/re01redstone/cw-test-plugin/total.svg?label=下载量&color=green&style=for-the-badge)](https://github.com/re01redstone/cw-test-plugin)
 
 </div>
 
 ## 介绍
 
-本项目是一个 Class Widgets 插件模板，可以帮助你快速创建一个新的 Class Widgets 插件项目。
-
-### 截图
-![截图1](img/img.png)
+本项目是一个 Class Widgets 插件，学习用途, 会做各种各样奇奇怪怪的东西。
 
 ### 特性
 
-- 第一个特性
+- 黄历小组件
 - 第二个特性
 - 第三个特性
 
@@ -38,7 +35,7 @@ Copyright © 2025 Your Name.
 
 ### 贡献者
 Thanks goes to these wonderful people:
-[![Contributors](http://contrib.nn.ci/api?repo=repo-owner/repo-name)](https://github.com/repo-owner/repo-name/graphs/contributors)
+[![Contributors](http://contrib.nn.ci/api?repo=re01redstone/cw-test-plugin)](https://github.com/re01redstone/cw-test-plugin/graphs/contributors)
 
 ### 使用的资源
 
