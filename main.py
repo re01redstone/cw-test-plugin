@@ -6,9 +6,10 @@
     若要在插件广场推送您的更新，请手动修改"plugin.json"的"version"版本号字段以被插件广场识别
 """
 from PyQt5 import uic
-import requests,time,json
-from .ClassWidgets.base import PluginBase, SettingsBase  # 导入CW的基类
-
+import time,json
+from .ClassWidgets.base import PluginBase, SettingsBase, load_libs # 导入CW的基类
+load_libs()
+import requests
 
 class Plugin(PluginBase):  # 插件类
     def __init__(self, cw_contexts, method):  # 初始化
@@ -22,6 +23,8 @@ class Plugin(PluginBase):  # 插件类
 
     def update(self, cw_contexts):  # 自动更新部分
         super().update(cw_contexts)  # 调用父类更新方法
+
+        print(requests.__file__)
 
         # 黄历小组件
         current_date=time.strftime("%Y-%m-%d",time.localtime()) # 获取当前时间,格式:YYYY-mm-dd
