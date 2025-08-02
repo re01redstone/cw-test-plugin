@@ -24,8 +24,6 @@ class Plugin(PluginBase):  # 插件类
     def update(self, cw_contexts):  # 自动更新部分
         super().update(cw_contexts)  # 调用父类更新方法
 
-        print(requests.__file__)
-
         # 黄历小组件
         current_date=time.strftime("%Y-%m-%d",time.localtime()) # 获取当前时间,格式:YYYY-mm-dd
         datapack=requests.get("https://www.36jxs.com/api/Commonweal/almanac?sun="+current_date).content # 请求黄历数据
